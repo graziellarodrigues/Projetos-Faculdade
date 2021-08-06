@@ -1,0 +1,2 @@
+Este foi meu projeto final para a disciplina de Construção de Páginas da Web I. 
+O site do projeto é uma releitura minha do site da empresa em que trabalho atualmente. Todas as imagens e textos que constam neste projeto foram tirados do site oficial da empresa e de suas redes sociais. 
