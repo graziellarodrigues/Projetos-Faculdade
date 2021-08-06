@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Exotics Informática</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo1.css">
+    <link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
+    <!--fonte do google-->
+    <meta charset="utf-8">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <meta name="description" content="Exotics softwares e sistemas inteligentes para calculos juridicos">
+    <meta name="keywords" content="memorial, calculo juridico, trabalhista, previdenciario, memoria de calculo">
+    <meta name="author" content="Graziella de Moura Rodrigues">
+</head>
+
+
+<body>
+
+    <div id="container">
+        <img src="imagens/exologotiponome.png" alt="exologo" width="250" height="60"><br><br>
+        <div>
+
+            <div class="cabecalho">
+                <a id="active"></a><a href="index.html" id="current"> Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="suporte.html">Suporte</a>
+                <a href="blog.html">Blog</a>
+                <a href="faq.html">Perguntas e Respostas</a>
+                <a href="sobreaexotics.html">Sobre a Exotics</a>
+                <a href="contato.html">Contato</a>
+
+            </div><br>
+
+        </div>
+
+        <h2 id="contato">Contato</h2>
+        <div class="sup-form">
+            <div class="sup-formulario">
+                <h3>Fale Conosco</h3><br><br>
+                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="nome">Nome</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="phone">Telefone</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="phone" name="phone" placeholder="Digite seu telefone" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="assunto">Assunto</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="assunto" name="assunto">
+                      <option value="Vendas">Vendas</option>
+                      <option value="suporte">Suporte</option>
+                      <option value="fin">Financeiro</option>
+                      <option value="recl">Reclamações</option>
+                      <option value="elog">Elogios</option>
+                      <option value="out">Outros Assuntos</option>
+                    </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Mensagem</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Digite sua mensagem" style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+        <div class="rodape">
+            <h3>
+                <img src="imagens/logo-google-play.png " alt="ícone_google_play" width="180" height="50">
+                <img src="imagens/disponivel-na-app-store-botao-9.png " alt="ícone_apple_store" width="180" height="50"></h3>
+
+            Exotics Informática Ltda.<br> Rua Olinda, 455 - Porto Alegre - RS. CEP: 90240-570 <br>Vendas: (51) 3028-4520 e (51) 99976-1133<br> Suporte: (51) 3346-4520 e (51) 99971-7046<br> info@exotics.com.br
+            <h4>2021</h4>Site criado por Graziella de Moura Rodrigues</div>
+    </div>
+    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=555199999.00000" id="link" target="_blank" style="margin-left:90%;"><img src="imagens/logotipo-do-whatsapp.png" alt="ícone_whats_sticky" id="whatsicon"></a>
+</body>
